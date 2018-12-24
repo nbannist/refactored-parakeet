@@ -33,7 +33,7 @@ var DummyComponent = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                'I am a dummy react module, one of the first commits (v0.0.1)'
+                'I am a dummy react module, one of the first commits (v0.0.2)'
             );
         }
     }]);
