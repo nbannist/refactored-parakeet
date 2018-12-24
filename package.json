@@ -1,0 +1,38 @@
+{
+  "name": "legendary-giggle",
+  "version": "0.1.0",
+  "description": "Testing NPM + GIT for reusable react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "test-watch": "jest --env=jsdom --watch",
+    "build": "npx babel src --out-file index.js --ignore test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.iu.edu/nbannist/legendary-giggle.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "rivet"
+  ],
+  "author": "nbannist",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.8.0",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0"
+  },
+  "peerDependencies": {
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  }
+}
