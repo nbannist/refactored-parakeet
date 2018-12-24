@@ -1,6 +1,6 @@
 {
-  "name": "legendary-giggle",
-  "version": "0.1.0",
+  "name": "refactored-parakeet",
+  "version": "0.0.2",
   "description": "Testing NPM + GIT for reusable react components",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.iu.edu/nbannist/legendary-giggle.git"
+    "url": "https://www.github.edu/nbannist/refactored-parakeet.git"
   },
   "keywords": [
     "react",
